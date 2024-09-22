@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Compagnie Républicaine de Sécurité KelRP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://raw.githubusercontent.com/lucascharle/lucascharle.github.io/main/logo%20crs.png" alt="Logo" class="logo">
+        <h1 style="color:rgb(224, 12, 12);">Compagnies républicaines de sécurité KelRP</h1>
+        <nav>
+            <ul>
+                <li><a href="categorie1.html">Présentation de la CRS</a></li>
+                <li><a href="categorie2.html">Hiérarchie effectif crs</a></li>
+                <li><a href="categorie3.html">Nos spécialités</a></li>
+                <li><a href="recrutement.html">Espace Recrutement de la CRS</a></li>
+                <li><a href="#" id="privateLink">Espace Personnel de la CRS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="logo-container">
+            <img src="https://raw.githubusercontent.com/lucascharle/lucascharle.github.io/main/Capture%20d_e%CC%81cran%202024-07-26%20213518.png" alt="Logo" class="logo">
+        <h1>Compagnies républicaines de sécurité de KelRP</h1>
+    </main>
+
+    <!-- Fenêtre modale pour le mot de passe -->
+    <div id="passwordModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Accès réservé</h2>
+            <p>Veuillez entrer le mot de passe :</p>
+            <input type="password" id="passwordInput" placeholder="Mot de passe">
+            <button id="submitPassword">Valider</button>
+            <p id="errorMsg" class="hidden">Mot de passe incorrect !</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
